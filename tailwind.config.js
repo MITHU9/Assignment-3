@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "input-img": "url('./assets/bg.jpg')",
+        "input-img": "url('../assets/bg.jpg')",
       },
       fontFamily: {
         manrope: ["Manrope", "sans - serif"],
