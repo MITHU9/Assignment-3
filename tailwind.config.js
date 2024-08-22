@@ -7,7 +7,7 @@ module.exports = {
       },
       colors: {
         "btn-bg": "#ABEF5F",
-        "bg-body": "#F7F7F7",
+        "bg-body": "#FEFEFE",
         "section-bg": "#F4F4F4",
       },
     },
