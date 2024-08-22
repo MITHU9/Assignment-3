@@ -2,6 +2,9 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "input-img": "url('./assets/bg.jpg')",
+      },
       fontFamily: {
         manrope: ["Manrope", "sans - serif"],
       },
