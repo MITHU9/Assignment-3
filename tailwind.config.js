@@ -2,6 +2,9 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        manrope: ["Manrope", "sans - serif"],
+      },
       colors: {
         "btn-bg": "#ABEF5F",
         "bg-body": "#F7F7F7",
