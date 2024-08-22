@@ -14,10 +14,9 @@
     />
   </head>
   <body class="bg-bg-body font-manrope">
+    <!-- ===== Header Section Start ==== -->
     <section class="max-w-[1170px] mx-auto">
-      <!-- ===== Header Section Start ==== -->
       <header>
-        <!-- ==== Navbar Section Start==== -->
         <div class="navbar md:px-4">
           <div class="navbar-start">
             <div class="dropdown">
@@ -124,8 +123,10 @@
       </header>
       <!-- ===== Header Section End ==== -->
     </section>
+    <!-- ==== Navbar Section Start==== -->
+
     <!-- ==== About Section Start ==== -->
-    <section class="bg-section-bg">
+    <section class="bg-section-bg py-3">
       <div class="max-w-[1170px] mx-auto">
         <div class="py-6 mt-8 px-2">
           <img class="hidden lg:block" src="./assets/Vector.png" alt="vector" />
@@ -247,7 +248,7 @@
 
           <!-- === Card Side Start === -->
           <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-3"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-3 pb-10"
           >
             <div class="bg-[#E7C1D3] rounded-xl p-3">
               <img src="./assets/concept.png" alt="concept" />
@@ -288,5 +289,120 @@
       </div>
     </section>
     <!-- ==== About Section End ==== -->
+
+    <!-- ==== Portfolio Section Start ==== -->
+    <section class="bg-white">
+      <div class="py-8 max-w-[1170px] mx-auto">
+        <!-- === Text Side Start === -->
+        <div class="text-center p-3 md:p-5 md:w-2/3 mx-auto">
+          <a
+            class="px-3 py-2 bg-lime-100 rounded-3xl font-semibold text-gray-500"
+            href="#"
+            ><i class="fa-solid fa-arrow-right"></i> Explore Our Latest
+            Portfolio</a
+          >
+          <h1 class="text-4xl lg:text-5xl font-bold py-4">
+            Our Latest Portfolio
+          </h1>
+          <p class="text-gray-500 font-semibold">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <!-- === Text Side End === -->
+
+        <!-- ==== Grid Item Section Start === -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 lg:grid-rows-2 px-4 gap-5"
+        >
+          <div
+            class="lg:col-start-1 lg:col-end-9 flex flex-col md:flex-row gap-4 border items-center md:h-[220px] rounded-lg md:col-start-1 md:col-end-9"
+          >
+            <img
+              class="w-full h-full object-cover rounded-xl p-3"
+              src="./assets/img1.png"
+              alt="home on hand"
+            />
+            <div class="h-full p-3">
+              <h3 class="text-lg font-bold text-gray-500">Commercial</h3>
+              <p class="text-gray-500 font-semibold py-2">
+                The barn house captivates with its blend of rustic charm and
+                modern. The barn house captivates with its blend of rustic charm
+                and modern .
+              </p>
+              <button class="py-2 rounded-3xl font-bold">
+                View Details
+                <i
+                  class="fa-solid fa-arrow-right -rotate-45 bg-btn-bg p-2 rounded-full"
+                ></i>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="lg:col-start-9 lg:col-end-13 border rounded-lg h-[220px] md:col-start-1 md:col-end-5"
+          >
+            <img
+              class="w-full h-full object-cover rounded-3xl p-4"
+              src="./assets/img2.png"
+              alt="nice home"
+            />
+          </div>
+          <div
+            class="w-full lg:col-start-1 lg:col-end-4 border rounded-lg h-[220px] order-5 lg:order-3 md:col-start-1 md:col-end-5"
+          >
+            <img
+              class="w-full h-full object-cover rounded-3xl p-4"
+              src="./assets/img3.png"
+              alt=""
+            />
+          </div>
+
+          <div
+            class="lg:col-start-4 lg:col-end-10 flex flex-col md:flex-row gap-4 border items-center md:h-[220px] rounded-lg order-4 lg:order-4 md:col-start-1 md:col-end-9"
+          >
+            <img
+              class="w-full h-full object-cover rounded-3xl p-3"
+              src="./assets/img4.png"
+              alt="home on hand"
+            />
+            <div class="w-full p-3">
+              <h3 class="text-lg font-bold text-gray-500">Commercial</h3>
+              <p class="text-gray-500 font-semibold py-2">
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <button class="py-2 rounded-3xl font-bold">
+                View Details
+                <i
+                  class="fa-solid fa-arrow-right -rotate-45 bg-btn-bg p-2 rounded-full"
+                ></i>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="w-full lg:col-start-10 lg:col-end-13 border rounded-lg h-[220px] order-3 lg:order-5 md:col-start-5 md:col-end-9"
+          >
+            <img
+              class="w-full h-full object-cover rounded-3xl p-4"
+              src="./assets/img5.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="lg:col-start-10 lg:col-end-13 border rounded-lg p-4 lg:hidden h-[220px] order-6 md:col-start-5 md:col-end-9"
+          >
+            <img
+              class="w-full h-full object-cover rounded-xl"
+              src="./assets/img5.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- ==== Grid Item Section End === -->
+      </div>
+    </section>
+    <!-- ==== Portfolio Section End ==== -->
   </body>
 </html>
